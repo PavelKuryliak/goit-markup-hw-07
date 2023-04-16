@@ -40,6 +40,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-meny-burger">
+          <svg class="mobile-meny-burger-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <div class="adress-right">
           <address class="header-address">
             <a class="header-address-mail link" href="mailto:info@devstudio.com"
@@ -54,16 +59,16 @@
     </header>
     <main>
       <!-- _____________________section hero________________________ -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- _____________________section feature_____________________ -->
-      <section class="feature">
+      <!-- <section class="feature">
         <div class="container">
           <h2 class="feature-title">Feature</h2>
           <ul class="feature-list list">
@@ -117,52 +122,100 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- _____________________section work________________________ -->
-      <section class="work">
+      <!-- <section class="work">
         <div class="container">
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
             <li class="work-list-item">
-              <img
-                class="work-list-img"
-                src="./images/img1.jpg"
-                alt="foto 1 pk"
-                width="360"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/img-desktop-we-doing-1.jpg    1x,
+                    ./images/img-desktop-we-doing-1@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="work-list-img"
+                  src="./images/img-desktop-we-doing-1.jpg"
+                  alt="img-desktop-we-doing-1"
+                />
+              </picture>
             </li>
             <li class="work-list-item">
-              <img
-                class="work-list-img"
-                src="./images/img2.jpg"
-                alt="foto 2 app"
-                width="360"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/img-desktop-we-doing-2.jpg    1x,
+                    ./images/img-desktop-we-doing-2@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="work-list-img"
+                  src="./images/img-desktop-we-doing-2.jpg"
+                  alt="img-desktop-we-doing-2"
+                />
+              </picture>
             </li>
             <li class="work-list-item">
-              <img
-                class="work-list-img"
-                src="./images/img3.jpg"
-                alt="foto 3 pk a tel"
-                width="360"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/img-desktop-we-doing-3.jpg    1x,
+                    ./images/img-desktop-we-doing-3@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="work-list-img"
+                  src="./images/img-desktop-we-doing-3.jpg"
+                  alt="img-desktop-we-doing-3"
+                />
+              </picture>
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- _____________________section team________________________ -->
-      <section class="team">
+      <!-- <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/img4.jpg"
-                alt="foto Guerrero"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/img-desktop-team-mark.jpg    1x,
+                    ./images/img-desktop-team-mark@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/img-tablet-team-mark.jpg    1x,
+                    ./images/img-tablet-team-mark@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/img-mobile-team-mark.jpg    1x,
+                    ./images/img-mobile-team-mark@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team-list-img"
+                  src="./images/img-desktop-team-mark.jpg"
+                  alt="img Mark Guerrero"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-list-title">Mark Guerrero</h3>
                 <p class="team-list-text">Product Designer</p>
@@ -199,13 +252,37 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/img5.jpg"
-                alt="foto ford"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/img-desktop-team-tom.jpg    1x,
+                    ./images/img-desktop-team-tom@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/img-tablet-team-tom.jpg    1x,
+                    ./images/img-tablet-team-tom@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/img-mobile-team-tom.jpg    1x,
+                    ./images/img-mobile-team-tom@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team-list-img"
+                  src="./images/img-desktop-team-tom.jpg"
+                  alt="img Tom Ford"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-list-title">Tom Ford</h3>
                 <p class="team-list-text">Frontend Developer</p>
@@ -242,13 +319,37 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/img6.jpg"
-                alt="foto garcia"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/img-desktop-team-camila.jpg    1x,
+                    ./images/img-desktop-team-camila@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/img-tablet-team-camila.jpg    1x,
+                    ./images/img-tablet-team-camila@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/img-mobile-team-camila.jpg    1x,
+                    ./images/img-mobile-team-camila@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team-list-img"
+                  src="./images/img-desktop-team-camila.jpg"
+                  alt="img Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-list-title">Camila Garcia</h3>
                 <p class="team-list-text">Marketing</p>
@@ -285,13 +386,37 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-img"
-                src="./images/img7.jpg"
-                alt="foto wilson"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/img-desktop-team-daniel.jpg    1x,
+                    ./images/img-desktop-team-daniel@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/img-tablet-team-daniel.jpg    1x,
+                    ./images/img-tablet-team-daniel@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/img-mobile-team-daniel.jpg    1x,
+                    ./images/img-mobile-team-daniel@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team-list-img"
+                  src="./images/img-desktop-team-daniel.jpg"
+                  alt="img Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="box-team">
                 <h3 class="team-list-title">Daniel Wilson</h3>
                 <p class="team-list-text">UI Designer</p>
@@ -329,9 +454,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- _____________________customers___________________________ -->
-      <section class="customers">
+      <!-- <section class="customers">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -379,10 +504,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- ______________________ footer______________________________ -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="logo-box-footer">
           <a class="footer-logo link" href="./index.html"
@@ -449,11 +574,11 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- ---------------------------------Modal-------------------------------------- -->
 
-    <div class="beckdrop is-hidden" data-modal>
+    <!-- <div class="beckdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-icon-close-black">
@@ -538,7 +663,7 @@
           <button type="submit" class="contact-form-btn">Send</button>
         </form>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>

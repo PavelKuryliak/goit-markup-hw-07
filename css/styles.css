@@ -55,20 +55,43 @@ img {
     list-style: none;
 }
 
-.container {
+/* .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+} */
+
+.container {
+    padding: 0 16px;
 }
 
+@media screen and (min-width:428px) {
+    .container {
+        width: 428px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .container {
+        width: 1440px;
+        padding: 0 156px;
+    }
+}
 
 
 
 
 /* --------------------- header --------------------- */
 
-
+/* 
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -175,10 +198,10 @@ img {
 
 .header-address-mail {
     margin-right: 40px;
-}
+} */
 
 /* --------------------- section hero --------------------- */
-
+/* 
 .hero {
     background: var(--title-text-color);
     padding-top: 188px;
@@ -186,7 +209,7 @@ img {
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/hero-people-office.jpg);
+        url(../images/img-desktop-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
@@ -231,9 +254,11 @@ img {
 .hero-button:focus {
     background-color: var(--focus-btn-color);
     color: var(--bgc-white-color);
-}
+} */
 
 /* --------------------- section feature --------------------- */
+
+/* 
 .feature {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -274,11 +299,6 @@ img {
 .feature-icons {
     width: 64px;
     height: 64px;
-    /* margin-bottom: 8px;
-    display: flex;
-    justify-content: center; */
-
-
 }
 
 .feature-title-list {
@@ -299,7 +319,9 @@ img {
     width: 264px;
 }
 
+*/
 /* --------------------- section work --------------------- */
+/* 
 .work {
     padding-bottom: 120px;
 }
@@ -309,11 +331,9 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    /* max-width: 323px; */
-    /* margin: 0 auto 48px auto; */
-    display: flex;
-    justify-content: center;
-    margin-bottom: 72px;
+display: flex;
+justify-content: center;
+margin-bottom: 72px;
 
 }
 
@@ -325,9 +345,14 @@ img {
 
 .work-list-item {}
 
-.work-list-img {}
+.work-list-img {
+    width: 360px;
+}
 
+*/
 /* --------------------- team --------------------- */
+
+/* 
 .team {
     background: var(--studio-white-color);
     padding-top: 120px;
@@ -342,11 +367,9 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--title-text-color);
-    /* max-width: 164px;
-    margin: 0 auto 72px auto; */
-    display: flex;
-    justify-content: center;
-    margin-bottom: 72px;
+display: flex;
+justify-content: center;
+margin-bottom: 72px;
 }
 
 
@@ -377,8 +400,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    /* margin: 32px auto 8px;
-    text-align: center; */
     margin-bottom: 8px;
 }
 
@@ -387,8 +408,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraf-text-color);
-    /* margin-bottom: 32px;
-    text-align: center; */
     margin-bottom: 8px;
 }
 
@@ -425,8 +444,9 @@ img {
     fill: var(--studio-white-color);
 }
 
+*/
 /* _____________________Customers_____________________ */
-
+/* 
 
 .customers {
     padding-top: 115px;
@@ -479,10 +499,10 @@ img {
 .customers-icons {
     width: 104px;
     height: 56px;
-}
+} */
 
 /* --------------------- footer --------------------- */
-
+/* 
 .footer {
     background: var(--title-text-color);
     padding-top: 100px;
@@ -640,10 +660,10 @@ img {
     height: 24px;
     fill: var(--bgc-white-color);
 }
-
+ */
 
 /* --------------------- section scrolls --------------------- */
-
+/* 
 .scrolls {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -704,7 +724,7 @@ img {
 
 .scrolls-list-btr-item {}
 
-/* ___________________________________________________________ */
+
 
 .scrolls-list-img {
     display: flex;
@@ -767,10 +787,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraf-text-color);
-}
+} */
 
 /* _________________________Modal______________________________ */
-
+/* 
 .beckdrop {
     position: fixed;
     top: 0;
@@ -998,4 +1018,5 @@ img {
 .contact-form-btn:hover,
 .contact-form-btn:focus {
     background-color: var(--focus-btn-color);
-}
+} 
+*/
