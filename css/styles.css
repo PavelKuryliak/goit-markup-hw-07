@@ -541,7 +541,7 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
 
 /* --------------------- section hero --------------------- */
 /* --------------------- section feature --------------------- */
-@media screen and (max-width:1439px) {
+@media screen and (max-width:1199px) {
     .feature-icons-box {
         display: none;
     }
@@ -664,7 +664,7 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
 
 /* --------------------- section feature --------------------- */
 /* --------------------- section work --------------------- */
-@media screen and (max-width:1439px) {
+@media screen and (max-width:1199px) {
     .work {
         display: none;
     }
