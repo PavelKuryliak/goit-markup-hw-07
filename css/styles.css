@@ -113,7 +113,6 @@ img {
         background-color: transparent;
         border: none;
         padding: 0;
-        line-height: none;
     }
 
     .mobile-meny {
@@ -154,7 +153,6 @@ img {
         height: 24px;
         border: none;
         padding: 0;
-        line-height: none;
         border-radius: 50%;
         background-color: var(--footer-text-color);
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1211,7 +1209,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    rov-gap: 16px;
     text-align: center;
 }
 
@@ -1227,7 +1224,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--light-slate-border-8e8f99);
-    line-height: none;
 }
 
 .modal-input-icons-box {
