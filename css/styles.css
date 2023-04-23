@@ -1085,6 +1085,11 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
 
 /* --------------------- footer --------------------- */
 /* --------------------- section scrolls --------------------- */
+@media screen and (max-width:767px) {
+    .scrolls {
+        width: 100%;
+    }
+}
 
 .scrolls {
     padding-top: 96px;
@@ -1151,6 +1156,11 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
     row-gap: 48px;
     column-gap: 24px;
     justify-content: center;
+}
+
+.scrolls-list-img-item {
+    width: 100%;
+    max-width: 356px;
 }
 
 .scrolls-link {
